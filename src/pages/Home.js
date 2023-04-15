@@ -15,6 +15,16 @@ const Home = ({ navigation }) => {
                 title="Formação"
                 onPress={ () => navigation.navigate('Formacao') }
                 />
+
+            <Button
+                title="Habilidades"
+                onPress={ () => navigation.navigate('Habilidades') }
+                />
+
+            <Button
+                title="Experiências"
+                onPress={ () => navigation.navigate('Experiencias') }
+                />
             
         </View>
     );
